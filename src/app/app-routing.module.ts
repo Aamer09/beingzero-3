@@ -8,8 +8,8 @@ import { CountryComponent} from './country/country.component';
 import { NavComponent} from './nav/nav.component';
 const routes: Routes = [  
    { path: '', component: HomeComponent }, 
-     { path: 'colors', component: ColorComponent },
-     { path : 'users', component: UserComponent},
+     { path: 'color', component: ColorComponent },
+     { path : 'user', component: UserComponent},
      { path: 'nav', component : NavComponent},
      { path : 'country', component:CountryComponent}
 ];
